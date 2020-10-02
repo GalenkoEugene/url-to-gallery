@@ -1,0 +1,26 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+  DisplayCopNames: true
+
+Layout/LineLength:
+  Enabled: true
+  Max: 120
+
+Metrics/MethodLength:
+  Enabled: true
+  CountComments: false
+Metrics/BlockLength:
+  Enabled: true
+  CountComments: false
+  Exclude:
+    - spec/**/*
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
