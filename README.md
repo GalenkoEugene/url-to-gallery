@@ -11,3 +11,5 @@ UI available on [github pages](https://galenkoeugene.github.io/pictures-parser/)
 
 endpoint is: `/api/v1/parser`
 required params is: `url`
+
+try with: [https://wallpapers.io/](https://wallpapers.io/)

@@ -24,3 +24,6 @@ Style/Documentation:
 
 RSpec/MultipleExpectations:
   Enabled: false
+RSpec/ExampleLength:
+  Enabled: true
+  Max: 10
