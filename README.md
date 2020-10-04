@@ -7,6 +7,7 @@ This functionality should be covered with tests.
 UI should have a more or less modern look.
 
 API available on [heroku](https://picture-parser-api.herokuapp.com/api/v1/parser?url=https://unsplash.com/)
+UI available on [github pages](https://galenkoeugene.github.io/pictures-parser/)
 
 endpoint is: `/api/v1/parser`
 required params is: `url`
